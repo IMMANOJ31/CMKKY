@@ -22,5 +22,6 @@ public class SubString {
 
     public static void main(String[] args) {
         System.out.println(longestSubString(" "));
+        System.out.println("   ");
     }
 }
