@@ -28,7 +28,6 @@ public class QuickSort {
             if (arr[j] <= pivot) {
                 idx++;
 
-                // swap arr[j] and arr[idx]
                 int temp = arr[j];
                 arr[j] = arr[idx];
                 arr[idx] = temp;
@@ -37,7 +36,6 @@ public class QuickSort {
 
         idx++;
 
-        // place pivot at correct position
         int temp = arr[end];
         arr[end] = arr[idx];
         arr[idx] = temp;
