@@ -27,12 +27,12 @@ public class BubbleSort {
             }
 
     public static void main(String[] args) {
-        int arr[] = {2,5,7,8,0,1,5};
+        int arr[] = {1,2,3,4,5,6,7,8,9};
 
         bubbleSort(arr);
 
         for(int sort : arr){
-            System.out.println(sort);
+            System.out.print(sort + " ");
         }
     }
 }
